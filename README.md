@@ -40,4 +40,5 @@ motoshima-portifolio/
 ├── README.md
 ├── routes.js
 ├── server.js
+├── build.js
 ```
