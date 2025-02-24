@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuri Motoshima Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a href="#home" class="nav-item is-active" active-color="#213685">Home</a>
+            <a href="#about" class="nav-item" active-color="#213685">About</a>
+            <a href="#projects" class="nav-item" active-color="#213685">Projects</a>
+            <span class="nav-indicator"></span>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="container-home">
+            <div class="container-image-avatar">
+                <img src="https://avatars.githubusercontent.com/u/57924764?s=400&u=cb7b63d7c98f2657a1a68a05a060d86551fd004f&v=4"
+                    alt="Yuri Motoshima Avatar" class="avatar">
+            </div>
+            <div class="container-description">
+                <h1>Motoshima</h1>
+                <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem
+                </p>
+                <a href="mailto:contato@motoshima.com.br" class="contact-button">
+                    Contact Us
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="container-about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel turpis nec leo porta facilisis nec et
+                quam. Vivamus ut lectus quam. Proin id nulla nec odio faucibus varius. Donec id nisi ac felis ultricies
+                bibendum ac a velit. Nulla facilisi.</p>
+        </section>
+
+        <section id="projects" class="container-projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Board Games</h3>
+                    <p>A Python project for board games.</p>
+                    <button class="project-button" data-github="https://github.com/YuriMotoshima/board_games">View on
+                        GitHub</button>
+                </div>
+                <div class="project">
+                    <h3>Utils API Pipefy</h3>
+                    <p>A utility API for Pipefy.</p>
+                    <button class="project-button" data-github="https://github.com/YuriMotoshima/utils-api-pipefy">View
+                        on GitHub</button>
+                </div>
+                <div class="project">
+                    <h3>Model Container FastAPI JWT</h3>
+                    <p>A FastAPI project with JWT authentication.</p>
+                    <button class="project-button"
+                        data-github="https://github.com/YuriMotoshima/model_container_fastapi_jwt">View on GitHub</button>
+                </div>
+                <!-- Adicione mais projetos aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="url-linkedin">
+            <a href="https://www.linkedin.com/in/yuri-motoshima-396b731b1/" class="social-link">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/YuriMotoshima" class="social-link">
+                <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub">
+            </a>
+        </div>
+        <p>© 2023 Yuri Motoshima. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
