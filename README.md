@@ -24,7 +24,6 @@ Gosto de tecnologia desde muito novo e desenvolvi uma boa capacidade de aprender
 tree /f /a > estrutura_diretorios.txt
 motoshima-portifolio/
 |   .gitignore
-|   build,js
 |   estrutura_diretorios.txt
 |   nodemon.json
 |   package-lock.json
@@ -36,7 +35,7 @@ motoshima-portifolio/
 |   
 +---data
 |       data_html.js
-|
+|   
 +---public
 |       favicon.png
 |       github.svg
