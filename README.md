@@ -21,24 +21,30 @@ Gosto de tecnologia desde muito novo e desenvolvi uma boa capacidade de aprender
 # Estrutura
 
 ```sh
+tree /f /a > estrutura_diretorios.txt
 motoshima-portifolio/
-├── data/
-│   ├── data_html.js
-├── public/
-│   ├── favicon.png
-│   ├── github.svg
-│   ├── In-Blue-34.png
-│   ├── In-White-34.png
-│   ├── scripts.js
-│   └── styles.css
-├── views/
-│   └── index.html
-├── .gitignore
-├── nodemon.json
-├── package-lock.json
-├── package.json
-├── README.md
-├── routes.js
-├── server.js
-├── build.js
+|   .gitignore
+|   build,js
+|   estrutura_diretorios.txt
+|   nodemon.json
+|   package-lock.json
+|   package.json
+|   README.md
+|   routes.js
+|   server.js
+|   vercel.json
+|   
++---data
+|       data_html.js
+|
++---public
+|       favicon.png
+|       github.svg
+|       In-Blue-34.png
+|       In-White-34.png
+|       scripts.js
+|       styles.css
+|       
+\---views
+        index.ejs
 ```
