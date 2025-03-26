@@ -46,6 +46,10 @@ main {
   margin-bottom: 2em;
 }
 
+.container-about{
+  text-align: justify;
+}
+
 .nav {
   display: inline-flex;
   position: relative;
@@ -174,7 +178,7 @@ main {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 20px;
 }
 

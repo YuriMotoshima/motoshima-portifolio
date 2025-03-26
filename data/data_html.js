@@ -1,9 +1,7 @@
 module.exports = {
-    homeText: "Olá, eu sou o Yuri Motoshima.\n" + 
-              "Sou desenvolvedor Python.",
-    aboutText: "Sou desenvolvedor Python BackEnd, em geral trabalhando em Delivery sou acostumado a solucionar problemas em demandas, bem como criar soluções do zero.\n"+
-                "Atualmente atuo criando soluções com arquitetura de microserviços síncronos ou assíncronos, em nuvem, bem como desenvolvimento de APIs Rest em containers, integradas a Data Warehouse (BigQuery) ou bancos SQL ou NoSQL.\n"+
-                "No entanto também já desenvolvi bastante ETL com grande volume de dados por execução (cerca de 4 a 6 milhões linhas), utilizando multiprocess em alguns cenários para distribuir e escalar o consumo de recursos disponível.\n"+
-                "\n" +
-                "Outras ferramentas que já trabalhei são Selenium, PyAutoGui, mas também já utilizei Digibee, Power BI, Most, Pipefy."
+    homeText: "I'm a Python developer, and I build solutions.",
+    aboutText: "I am a Python Back-End Developer, usually working in a Delivery Center. I am experienced in solving problems in various projects and creating solutions from scratch.<br><br>" +
+        "Currently, I create solutions using microservices architecture, both synchronous and asynchronous, in the cloud. I also develop REST APIs in containers, integrated with Data Warehouses like BigQuery or SQL and NoSQL databases.<br><br>" +
+        "In my career, I have developed ETL processes that handle large data volumes, typically processing between 4 to 6 million rows per execution. In some cases, I applied multiprocessing and parallelism to optimize resource usage and improve performance.<br><br>" +
+        "Additionally, I have experience working with tools like Selenium, PyAutoGui, and platforms such as Digibee, Power BI, Most, and Pipefy. For Pipefy, I built a small Python framework to facilitate API integrations."
 };
