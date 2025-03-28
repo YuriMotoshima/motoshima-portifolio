@@ -27,7 +27,9 @@
             </div>
             <div class="container-description">
                 <h1>Hi, I'm Motoshima</h1>
-                <p><%= homeText %></p>
+                <p>
+                    <%= homeText %>
+                </p>
                 <a href="mailto:contato@motoshima.com.br" class="contact-button">
                     Contact Us
                 </a>
@@ -42,14 +44,18 @@
         <section id="projects" class="container-projects">
             <h2>Projects</h2>
             <div class="project-grid">
-                <% dataRepos.forEach(repo => { %>
-                <div class="project">
-                    <h3><%= repo.name %></h3>
-                    <p><%= repo.description %></p>
-                    <button class="project-button" data-github="<%= repo.url %>">View on
-                        GitHub</button>
-                </div>
-                <% }); %>
+                <% dataRepos.forEach(repo=> { %>
+                    <div class="project">
+                        <h3>
+                            <%= repo.name %>
+                        </h3>
+                        <p>
+                            <%= repo.description %>
+                        </p>
+                        <button class="project-button" data-github="<%= repo.url %>">View on
+                            GitHub</button>
+                    </div>
+                    <% }); %>
             </div>
         </section>
     </main>
