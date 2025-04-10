@@ -32,6 +32,12 @@ body {
   color: var(--color-text);
 }
 
+.sticky-header{
+  position: sticky;
+  top:0;
+  z-index: 100;
+}
+
 header {
   text-align: center;
 }
@@ -58,6 +64,7 @@ main {
   background-color: var(--color-nav-bg);
   margin: 20px;
   padding: 0 20px;
+  z-index: 100;
   border-radius: 40px;
   box-shadow: var(--box-shadow);
 }
@@ -70,7 +77,6 @@ main {
   margin: 0 6px;
   z-index: 1;
   font-weight: 500;
-  position: relative;
 }
 
 .nav-item:before {
@@ -108,6 +114,7 @@ main {
 @media (max-width: 580px) {
   .nav {
     overflow: auto;
+     top:0;
   }
 }
 
